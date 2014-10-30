@@ -1,0 +1,30 @@
+[user]
+	name = Giedrius Rimkus
+	email = info@giedriusr.lt
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[core]
+	autocrlf = false
+	savecrlf = false
+	editor = vim
+[alias]
+	pl = pull
+	pr = pull --rebase
+	st = status
+	co = checkout
+	dc = diff --cached
+	ct = commit -m
+	ps = push
+	who = shortlog -s
+	lg = log
+	lc = log ORIG_HEAD.. --stat --no-merges
+	lol = log --pretty=oneline --abbrev-commit --graph --decorate
+	br = branch
+	wu = log --stat origin..@{0}
+	wup = log -p origin..@{0}
+	h = log --oneline --author=Giedrius --since='1 day ago'
+[push]
+	default = tracking
