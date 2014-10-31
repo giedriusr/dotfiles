@@ -16,6 +16,7 @@
 	st = status
 	co = checkout
 	dc = diff --cached
+	df = diff
 	ct = commit -m
 	ps = push
 	who = shortlog -s
